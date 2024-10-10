@@ -15,7 +15,7 @@ export default function Foreground() {
         {
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
             filesize: ".9mb",
-            close: true,
+            close: false,
             tag: { isOpen: true, tagTitle: "Upload", tagColor: "green" },
         },
         {
@@ -23,6 +23,12 @@ export default function Foreground() {
             filesize: ".9mb",
             close: true,
             tag: { isOpen: true, tagTitle: "Download Now", tagColor: "blue" },
+        },
+        {
+            desc: "Why are you gay?",
+            filesize: ".5mb",
+            close: false,
+            tag: { isOpen: true, tagTitle: "Fuck you", tagColor: "green" },
         },
     ];
     return (
